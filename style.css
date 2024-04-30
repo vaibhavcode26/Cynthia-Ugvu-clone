@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 9999;
+    position: absolute;
+    background-color: #ffff;
+}
+#main{
+    width: 100vw;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.heading{
+    margin-top: 130px;
+}
+.heading h1{
+    margin-left: 30px;
+    color: white;
+    font-size: 10vw;
+    line-height: 0.8;
+    opacity: 0.5;
+}
+.heading #design{
+    margin-left: 180px;
+}
+#block {
+    width: fit-content;   /*  taki jo block ki width hai vo sirf utni hi rhe jitni uske andar content hai */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+#block h5{
+    text-align: right;
+    font-size: 18px;
+}
+#smallheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+    margin-top: 100px;  
+}
+#smallheading h5{
+    margin-top: 0.5vw;
+    text-align: right;
+    font-size: 16px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    margin-top: 15px;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+}
+#footer #icons{
+    display: flex;
+    gap: 5px;
+}
+#second{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding-right: 10vw;
+    margin-top: 180px;
+}
+.elem{
+    border-top: 1px solid gray;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.elem h1{
+   
+    font-size: 7.6vw;
+    opacity: .6;
+}
+#second #last{
+    border-bottom: 1px solid gray;
+}
+.elem img{
+    position: absolute;
+    height: 140%;
+    z-index:999;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.about{
+    padding: 10vw 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 48vw;
+}
+#textabout h5{
+    text-transform: uppercase;
+    opacity: 0.6;
+    
+}
+#textabout{
+    width: 25rem;
+}
+.about img{
+    width: 180px;
+}
+#textabout p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+#textabout a{
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+#subscribe{
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+#subscribe h5{
+    opacity: 0.6;
+}
+#subscribe h3{
+    font-size: 15px;
+    margin-top: 5px;
+}
+#lastfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    
+}
+#leftfooter{
+    display: flex;
+    gap: 20px;
+}
+#rightfooter{
+    gap: 30px;
+    display: flex;
+}
+#lastfooter a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.boundingelem{
+    transform: translateY(100%);
+}
